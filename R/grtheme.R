@@ -1,3 +1,11 @@
+##' Themes set the general aspect of the plot such as the colour of the
+##' background, gridlines, the size and colour of fonts.  
+##' .. content for \details{} ..
+##' @title ggplot2 grtheme
+##' @param base_size base font size
+##' @param base_family base font family
+##' @author Giuseppe Ragusa
+##' @export 
 theme_gr <- function(base_size = 12, base_family = "sans") {
   (theme_bw(base_size = base_size, base_family = base_family)
    + theme(     
