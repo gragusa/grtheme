@@ -13,7 +13,6 @@ theme_gr(base_size = 12, base_family = "sans")
 \description{
 Themes set the general aspect of the plot such as the colour of the
 background, gridlines, the size and colour of fonts.
-.. content for \details{} ..
 }
 \author{
 Giuseppe Ragusa

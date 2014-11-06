@@ -9,8 +9,10 @@
 theme_gr <- function(base_size = 12, base_family = "sans") {
   (theme_bw(base_size = base_size, base_family = base_family)
    + theme(     
-     axis.title = element_blank(),
-     axis.text = element_text(),
+     axis.title.x = element_text(size = rel(0.9), vjust=-.7), 
+     axis.title.y = element_text(size = rel(0.9), vjust=.7), 
+     axis.ticks = element_line(colour = "black"),
+     axis.text = element_text(size = rel(0.8)),
      axis.ticks = element_blank(),
      axis.line = element_blank(),
      legend.background = element_rect(),
